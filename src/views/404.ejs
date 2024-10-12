@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="<%=lang%>">
+
+<head>
+
+    <%- include('partials/head'); -%>
+        <title>
+            <%=trans.notFound.title%> | Nourrisson Diffusion </title>
+</head>
+
+<body>
+    <%- include('partials/header'); -%>
+
+        <main class="p-4 my-24 flex flex-wrap  items-center justify-center">
+            <div class="md:mb-0 mb-8" data-aos="fade-up">
+                <h1 data-aos-easing="ease-in-out" data-aos-delay="300" class="font-bold md:text-6xl text-4xl uppercase md:text-left text-center mb-6">WHOOPS!</h1>
+
+                <p class="font-semibold w-120 my-4 md:text-left text-center">
+                    <%=trans.notFound.desc%>
+                </p>
+
+                <a href="/" class="flex md:w-max justify-center  items-center font-semibold text-xl shadow  py-3 px-6  bg-primary hover-bg-primary-dark rounded-md">
+                    <span><%=trans.links.home%></span>
+                    <svg class="ml-2 w-5" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.6667 10.6667L28 16.0001M28 16.0001L22.6667 21.3334M28 16.0001H4" stroke="white"
+                            stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+            <img data-aos="fade-down" class="w-120" src="/assets/not-found.svg" />
+
+        </main>
+
+        <%- include('partials/footer'); -%>
+</body>
+
+</html>

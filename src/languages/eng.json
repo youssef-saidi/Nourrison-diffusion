@@ -1,0 +1,337 @@
+{
+    "global": {
+        "products": "Products",
+        "seeProds": "See products",
+        "categories": "Categories",
+        "contactUs": "Contact us",
+        "contactUsDesc": "Contact Us For More Informations",
+        "gallery": "Gallery"
+    },
+    "notFound": { "title": "Not Found", "desc": "Sorry, The page you are looking for doesn't exist." },
+    "links": {
+        "home": "Home",
+        "products": "Products",
+        "about": "About Us",
+        "contact": "Contact us"
+    },
+    "footer": {
+        "navigate": "navigate",
+        "copyright": {
+            "part1": "Copyright © Nourrisson diffusion",
+            "part2": ", All rights reserved."
+        }
+    },
+    "categories": {
+        "cat1": {
+            "title": "LFA chucks",
+            "desc": "Wide range of keyed, Hand tightening and self tightening chucks for stationary and portable drills.",
+            "prods": {
+                "prod1": {
+                    "title": "Self tightening chucks",
+                    "gallery": {
+                        "img1": "SELF-TIGHTENING CHUCKS FOR STATIONARY DRILLING MACHINES- CLASS H",
+                        "img2": "SELF-TIGHTENING CHUCKS FOR HIGH PRECISION STATIONARY DRILLING MACHINES AND MACHINE TOOLS – CLASS H+",
+                        "img3": "SELF-TIGHTENING CHUCKS FOR PRO PORTABLE DRILLS - CLASS M",
+                        "img4": "SELF-TIGHTENING CHUCKS FOR PRO PORTABLE DRILLS WITH PERCUSSION - CLASS M"
+                    }
+                },
+                "prod2": {
+                    "title": "Hand Tightening Chucks",
+                    "gallery": {
+                        "img1": "KEYLESS HAND-TIGHTENING CHUCKS FOR PORTABLE DRILLS - CLASS L-5300-5320",
+                        "img2": "KEYLESS HAND-TIGHTENING CHUCKS FOR PRO PORTABLE DRILLS - CLASSE L",
+                        "img3": "KEYLESS HAND-TIGHTENING CHUCKS FOR PORTABLE DRILLS WITH PERCUSSION WITH PATENTED LOCKING SYSTEM- CLASSE L",
+                        "img4": "KEYLESS HAND-TIGHTENING CHUCKS FOR PRO PORTABLE DRILLS- CLASSE M",
+                        "img5": "KEYLESS HAND-TIGHTENING CHUCKS FOR PORTABLE DRILLS WITH PERCUSSION WITH PATENTED LOCKING SYSTEM- CLASSE M"
+                    }
+                },
+                "prod3": {
+                    "title": "Keyed chucks",
+                    "gallery": {
+                        "img1": "KEY TYPE CHUCKS FOR BENCH AND PEDESTAL DRILLING MACHINES – CLASS H",
+                        "img2": "KEY TYPE CHUCKS FOR STATIONARY AND PORTABLE PNEUMATIC DRILLING MACHINES - CLASS H",
+                        "img3": "KEY TYPE CHUCKS FOR HIGH PRECISION STATIONARY DRILLING MACHINES - CLASS H+",
+                        "img4": "KEY TYPE CHUCKS FOR PORTABLE DRILLS - CLASS L",
+                        "img5": "KEY TYPE CHUCKS FOR PRO PORTABLE DRILLS - CLASS M-43B",
+                        "img6": "KEY TYPE CHUCKS FOR PRO PORTABLE DRILLS - CLASS M",
+                        "img7": "KEY TYPE CHUCKS FOR PRO PORTABLE DRILLS WITH INTENSIVE PERCUSSION- CLASSE M-422",
+                        "img8": "KEY TYPE CHUCKS FOR PRO PORTABLE DRILLS WITH INTENSIVE PERCUSSION- CLASSE M"
+                    }
+                }
+            }
+        },
+        "cat2": {
+            "title": "Drill bits",
+            "desc": "Range of drill bits for drilling wood, concrete, tiles and steel.",
+            "prods": {
+                "prod1": {
+                    "title": "Wood",
+                    "gallery": {
+                        "img1": "WOOD DRILL BIT - 90° TOP ANGLE 15° CLEARANCE 160MM",
+                        "img2": "SELF-CENTERING CARBIDE WOOD DRILL BIT WITH TRACERS",
+                        "img3": "SELF-CENTERING CARBIDE WOOD DRILL BIT",
+                        "img4": "WOOD DRILL BIT DOUBLE LISTEL",
+                        "img5": "WOOD DRILL BIT FCE- HSS",
+                        "img6": "WOOD DRILL BIT HSS",
+                        "img7": "LONG SERIES DRILL BIT",
+                        "img8": "SPECIAL RENOVATION DRILL BIT WITH HEXAGONAL SHANK",
+                        "img9": "SPECIAL RENOVATION DRILL BIT SDS+",
+                        "img10": "SPECIAL RENOVATION DRILL BIT SDS UNIVERSAL",
+                        "img11": "3-POINT WOOD DRILL BIT Cut",
+                        "img12": "SINGLE SPINDLE WOOD DRILL BIT SQUARE SHANK CONICAL",
+                        "img13": "SINGLE SPIKE DRILL BIT CYLINDRICAL SHANK+ 1 TRACOIR 130MM"
+                    }
+                },
+                "prod2": {
+                    "title": "Metal",
+                    "gallery": {
+                        "img1": "EXTRA SHORT DRILL BIT 5% COBALT",
+                        "img2": "HSS CARBIDE DRILL BIT",
+                        "img3": "HSS COBALT DRILL BIT 5% SPECIAL STAINLESS STEEL",
+                        "img4": "HSS LAMINATED DRILL BIT",
+                        "img5": "HSS DRILL BIT",
+                        "img6": "HSS DRILL BIT GOLD",
+                        "img7": "RECTIFIED GRINDED DRILL BIT M2 - EXTRA SHORT SERIES",
+                        "img8": "CUT AND GRINDED STEEL DRILL BIT",
+                        "img9": "HSS DRILL BIT 300 X",
+                        "img10": "HSS DRILL BIT CUT AND GRINDED STEEL",
+                        "img11": "DRILL BIT CUT AND GRINDED SERIES EXTRA LONG M2",
+                        "img12": "GRINDED-RECTIFIED CUT DRILL BIT LONG SERIES M2",
+                        "img13": "CUT- GRINDED TITANIUM DRILL BIT",
+                        "img14": "DRILL BIT CUT-RECTIFIED COBALT 5%",
+                        "img15": "DRILL BIT CUT-RECTIFIED COBALT 8%"
+                    }
+                },
+                "prod3": {
+                    "title": "Concrete",
+                    "gallery": {
+                        "img1": "CONCRETE DRILL BIT",
+                        "img2": "DRILL BIT FOR CONCRETE INDUSTRY",
+                        "img3": "STANDARD CONCRETE DRILL BIT",
+                        "img4": "CENTERING DRILL BIT, THREAD M16",
+                        "img5": "ALL MATERIALS DRILL BIT",
+                        "img6": "SPECIAL CERAMIC DRILL BIT"
+                    }
+                }
+            }
+        },
+        "cat3": {
+            "title": "Thread restorers",
+            "desc": "Essential tools in the mechanics' toolbox for repairing threads damaged by rust, shocks, etc...",
+            "prods": {
+                "prod1": {
+                    "title": "Iso"
+                },
+                "prod2": {
+                    "title": "Unf-unc"
+                },
+                "prod3": {
+                    "title": "Gaz"
+                },
+                "prod4": {
+                    "title": "International"
+                },
+                "prod5": {
+                    "title": "Whitworth"
+                }
+            }
+        },
+        "cat4": {
+            "title": "Files and milling plates",
+            "desc": "Finishing tools for the restoration of car bodies.",
+            "subCategories": {
+                "globalGallery": {
+                    "img1": "‘Bâtard’ 9-tooth with chip breaker",
+                    "img2": "‘Bâtard’ 9-tooth",
+                    "img3": "12-tooth half-wheel with chip breaker",
+                    "img4": "12-tooth half-wheel",
+                    "img5": "Soft 15 teeth with chip breaker",
+                    "img6": "Soft 15 teeth"
+                },
+                "cat1": {
+                    "title": "Milling files",
+                    "prods": {
+                        "prod1": "Curvilinear milling file half round",
+                        "prod2": "Curvilinear milling file plate",
+                        "prod3": "Oblique milling file half round",
+                        "prod4": "Oblique milling file plate"
+                    }
+                },
+                "cat2": {
+                    "title": "Milling plates",
+                    "prods": {
+                        "prod1": "Curvilinear milling plate half round",
+                        "prod2": "Curvilinear milling plate plate",
+                        "prod3": "Oblique milling plate half round",
+                        "prod4": "Oblique milling plate plate"
+                    }
+                }
+            }
+        }
+    },
+    "about": {
+        "title1": {
+            "part1": "About",
+            "part2": "Us"
+        },
+        "desc1": "NOURRISSON DIFFUSION is developing the industrial know-how in tooling born in France on several sites and ensuring an industrial synthesis in Tunisia in order to be able to resist the competitive pressure of China and India in tooling.",
+        "li1": "Montbrison (1897) for the production of wood and concrete drill bits by the company NOURRISSON Claude.",
+        "li2": "Saint Etienne (1919) for the production of drills and cutters.",
+        "li3": "Pontarlier (1925) for the manufacture of chucks by the company Les Frères Amyot (LFA)",
+        "li4": "Paris (1930) for the production of milled files by the company PASCAL Le Filon.",
+
+        "title2": "An export-oriented key account customer base",
+        "desc2": "Our customer base is worldwide and is made up of manufacturers of portable electric tools and tool traders.",
+
+        "title3": {
+            "part1": "Our",
+            "part2": "Commitments"
+        },
+        "desc3": "Nourrisson Tunisie was created to offer European manufacturers an alternative to 100% Asian sourcing.",
+        "desc4": "The linguistic and geographical proximity allows a faster and more precise response to your logistic and product specifications.",
+        "desc5": "Our commitment is to accompany you successfully in bringing your supply chain closer.",
+        "desc6": "We offer you customisation and product quality that meet the standards of European manufacturers at the right cost to differentiate you from your Asian competitors.",
+        "title4": "Our History",
+
+        "dd1897": "Montbrison, specialized in carpentry and cooperage drill bits.",
+        "dd1917": "Separation of the NOURRISSON brothers, Claude Nourrisson creates the company Outillage NOURRISSON Claude and becomes a competitor of his 2 brothers in Montbrison.",
+        "dd1919": "Creation of the company FOS Fabrication d'outillage de St Etienne, specialized in the production of milling cutters and cutting tools for the weapon industry in St Etienne.",
+        "dd1925": "Creation of the company \"Les Fils de Virgile Amyot\", 20 km from Pontarlier, specialized in the manufacture of drill chucks for the industry.",
+        "dd1930": "Start of international development (Argentina, Australia) for LFA, african speaking countries for Outillage Nourrisson.",
+        "dd1973": "The signing of a contract for 100,000 chucks with Black & Decker accelerates the company's establishment in the Pontarlier industrial zone.",
+        "dd1984": "Creation of a subsidiary in the USA, LFA Industries Inc, to market LFA chucks.",
+        "dd1985": "Outillage NOURRISSON Claude & fils takes over the company NOURRISSON Laurent and the brand RISS for the reunion of the drill companies in Montbrison after 70 years of family competition.",
+        "dd1995": "Establishment of the first joint venture in Poland to market the RISS brand.",
+        "dd1997": "Launch of keyless chucks with manual tightening, patented in Europe, USA and Asia (now representing 90% of total production).",
+        "dd1998": "First production subsidiary in Romania for NOURRISSON Claude, to counter the arrival of Chinese tools on the market.",
+        "dd2003": "Launch of keyless chucks with new locking system.",
+        "dd2011": "Launch of a new range, the ultra compact chucks.",
+        "dd2012": "Acquisition of Horst MIEBACH in Cologne for the production of special and high performance wood drills.",
+        "dd2015": "Foundation of NOURRISSON TUNISIE to bring the value chain closer to France (product packaging).",
+        "dd2016": {
+            "part1": "The historical LFA chuck production site in Pontarlier is transferred to Tunisia following the takeover by NOURRISSON Claude..",
+            "part2": "Takeover of FOS by Outillage NOURRISSON Claude, production of grinding and packaging of HSS hob cutters in Tunisia."
+        },
+        "dd2019": {
+            "part1": "Acquisition of PASCAL LE FILON (Paris) by Outillage Nourrisson Claude, factory transferred to Tunisia.",
+            "part2": "Takeover of NOURRISSON TUNISIE by the company Nourrisson Diffusion."
+        }
+    },
+    "contact": {
+        "successMessage": {
+            "part1": "Thank you for filling in your information!",
+            "part2": "Thank you for contacting us.",
+            "part3": "One of our colleagues will get back to you soon."
+        },
+        "errorMessage": {
+            "part1": "Oops, something goes wrong!",
+            "part2": "Please check your connection or try later."
+        },
+        "submitBtn": {
+            "title": "Send",
+            "loading": "Loading ..."
+        },
+        "formFields": {
+            "firstName": {
+                "title": "First Name",
+                "placeholder": "John",
+                "validation": "First Name length should be between 2 and 64."
+            },
+            "lastName": {
+                "title": "Last Name",
+                "placeholder": "Dhoe",
+                "validation": "Last Name length should be between 2 and 64."
+            },
+            "company": {
+                "title": "Company ( optional )",
+                "placeholder": "Your company name",
+                "validation": "Company name length should be between 2 and 128."
+            },
+
+            "email": {
+                "title": "Email",
+                "placeholder": "example@email.com"
+            },
+            "phoneNumber": {
+                "title": "Phone Number",
+                "placeholder": "Your mobile or landline number",
+                "validation": "Phone number length should be between 8 and 20."
+            },
+            "address": {
+                "title": "Address",
+                "placeholder": "Number and name ...",
+                "validation": "Address length should be between 6 and 255."
+            },
+            "message": {
+                "title": "Message ( optional )",
+                "placeholder": "Feedbacks, Questions, ..."
+            }
+        }
+
+    },
+    "home": {
+        "title1": {
+            "part1": "Who",
+            "part2": "are we?"
+        },
+        "desc1": "Nourrisson Diffusion is the result of the partition of the NOURRISSON group in 2019.",
+        "desc2": "We continue to design, produce and market French products at our historical sites in Montbrison, Pontarlier and Paris, which have been transferred to Tunisia since 2016.",
+
+        "topProducts": {
+            "title": "Top Products",
+            "prod1": {
+                "title": "Hand-tightening chucks 5300 & 5320 Series",
+                "desc": "Hand-tightening keyless chucks with double plastic sleeve For portable drills with percussion WithA drill perfectly adapted to the hardest materials : full body porcelain stoneware, marble, granite."
+            },
+            "prod2": {
+                "title": "ISO Thread Restorer",
+                "desc": "Precision thread repair tool for ISO internal and external threads (pitch 0.8 - 1 - 1.25 - 1.50 - 1.75 - 2 - 2.5 - 3 mm)."
+            },
+            "prod3": {
+                "title": "Tile Drill Bit",
+                "desc": "A drill bit perfectly adapted to the hardest materials: full body porcelain stoneware, marble, granite. Extremely efficient drills Bits thanks to the asymmetrical sharpening and the specific profile which allows to drill several layers: tiles + concrete/brick/etc."
+            },
+            "prod4": {
+                "title": "Wood Drill Bit 1070",
+                "desc": "Ideal for drilling in woodwork. Double listel which improves the guidance during drilling."
+            }
+        },
+
+        "title2": "Production site of Nourrisson Tunisie",
+        "desc3": "NOURRISSON TUNISIE was created in order to offer European manufacturers an alternative to 100% Asian sourcing. The linguistic and geographical proximity allows a faster and more precise response to your logistic and product specifications.",
+        "nourrissonTunisiaBtn": "Nourrisson Tunisia"
+    },
+    "seo": {
+        "home": {
+            "description": "We continue to design, produce and market French products at our historical sites in Montbrison, Pontarlier and Paris, which have been transferred to Tunisia since 2016.",
+            "keywords": "Nourrisson Diffusion, nourrisson group, produce, market, French products, Montbrison, Pontarlier, Paris"
+        },
+        "about": {
+            "description": "Nourrisson Diffusion develops in the 21st century, NOURRISSON DIFFUSION is developing the industrial know-how in tooling born in France on several sites and ensuring an industrial synthesis in Tunisia in order to be able to resist the competitive pressure of China and India in tooling.",
+            "keywords": "About us, History, Commitments"
+        },
+        "contact": {
+            "description": "Contact us",
+            "keywords": "Contact"
+        },
+
+        "lfaChucks": {
+            "description": "Wide range of keyed, manual tightening and automatic tightening chucks for stationary and portable drills.",
+            "keywords": "LFA chucks, Auto-tightening chuck, Manual tightening chuck, Keyed chuck"
+        },
+
+        "drillBits": {
+            "description": "Range of drills for drilling wood, concrete, tiles, steel.",
+            "keywords": "Drill bits, Metal, Concrete, Wood"
+        },
+        "milledFile": {
+            "description": "Finishing tools for the restoration of car bodies.",
+            "keywords": "Files and milling plates, Curvilinear milling file, Oblique milling file, Curvilinear milling plate, Oblique milling plate"
+        },
+        "threadRestorers": {
+            "description": "Indispensable tools in the mechanics' toolbox for repairing threads damaged by rust, shocks ...",
+            "keywords": "Thread restorers, International, Iso, Unf-unc, Gaz, Whitworth"
+        }
+
+    }
+}

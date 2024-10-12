@@ -1,0 +1,341 @@
+{
+    "global": {
+        "products": "Produits",
+        "seeProds": "Voir les produits",
+        "categories": "Catégories",
+        "contactUs": "Contactez-nous",
+        "contactUsDesc": "Contactez-nous pour plus d'informations",
+        "gallery": "Galerie"
+    },
+    "notFound": {
+        "title": "Pas trouvé",
+        "desc": "Désolé, la page que vous recherchez n'existe pas."
+    },
+    "links": {
+        "home": "Accueil",
+        "products": "Produits",
+        "about": "À propos",
+        "contact": "Contact"
+    },
+    "footer": {
+        "navigate": "naviguer",
+        "copyright": {
+            "part1": "Copyright © Nourrisson diffusion",
+            "part2": ", Tous les droits sont réservés."
+        }
+    },
+    "categories": {
+        "cat1": {
+            "title": "Mandrins LFA",
+            "desc": "Gamme large de mandrins à clefs, serrage manuel et serrage automatique pour perceuses stationnaire et portatives.",
+            "prods": {
+                "prod1": {
+                    "title": "Mandrin auto-serrant",
+                    "gallery": {
+                        "img1": "MANDRINS AUTO-SERRANTS POUR PERCEUSES FIXES - CLASSE H",
+                        "img2": "MANDRINS AUTO-SERRANTS POUR PERCEUSES FIXES HAUTE PRÉCISION ET MACHINES-OUTILS - CLASSE H+",
+                        "img3": "MANDRINS AUTO-SERRANTS POUR PERCEUSES PORTATIVES PRO - CLASSE M",
+                        "img4": "Mandrins auto-serrants/MANDRINS AUTO-SERRANTS POUR PERCEUSES PORTATIVES PRO À PERCUSSION - CLASSE M"
+                    }
+                },
+                "prod2": {
+                    "title": "Mandrin à serrage manuel",
+                    "gallery": {
+                        "img1": "MANDRINS SANS CLÉ À SERRAGE MANUEL POUR PERCEUSES PORTATIVES - CLASSE L-5300-5320",
+                        "img2": "MANDRINS SANS CLÉ À SERRAGE MANUEL POUR PERCEUSES PORTATIVES - CLASSE L",
+                        "img3": "MANDRINS SANS CLÉ À SERRAGE MANUEL POUR PERCEUSES PORTATIVES À PERCUSSION AVEC BLOCAGE DE BROCHE - CLASSE L",
+                        "img4": "MANDRINS SANS CLÉ À SERRAGE MANUEL POUR PERCEUSES PORTATIVES PRO - CLASSE M",
+                        "img5": "MANDRINS SANS CLÉ À SERRAGE MANUEL POUR PERCEUSES PORTATIVES PRO À PERCUSSION AVEC BLOCAGE DE BROCHE - CLASSE M"
+                    }
+                },
+                "prod3": {
+                    "title": "Mandrin a clé",
+                    "gallery": {
+                        "img1": "MANDRINS À CLÉ POUR PERCEUSES FIXES - CLASSE H",
+                        "img2": "MANDRINS À CLÉ POUR PERCEUSES FIXES ET PNEUMATIQUES PORTATIVES - CLASSE H",
+                        "img3": "MANDRINS À CLÉ POUR PERCEUSES FIXES HAUTE PRÉCISION - CLASSE H+",
+                        "img4": "MANDRINS À CLÉ POUR PERCEUSES PORTATIVES - CLASSE L",
+                        "img5": "MANDRINS À CLÉ POUR PERCEUSES PORTATIVES PRO - CLASSE M-43B",
+                        "img6": "MANDRINS À CLÉ POUR PERCEUSES PORTATIVES PRO - CLASSE M",
+                        "img7": "MANDRINS À CLÉ POUR PERCEUSES PORTATIVES PRO À PERCUSSION INTENSIVE - CLASSE M-422",
+                        "img8": "MANDRINS À CLÉ POUR PERCEUSES PORTATIVES PRO À PERCUSSION INTENSIVE - CLASSE M"
+                    }
+                }
+            }
+        },
+        "cat2": {
+            "title": "Forets",
+            "desc": "Gamme de forets pour perçage du bois, du béton, carrelage, aciers.",
+            "prods": {
+                "prod1": {
+                    "title": "Bois",
+                    "gallery": {
+                        "img1": "FORET A BOIS - ANGLE SOMMET 90° DEPOUILLE 15° 160MM",
+                        "img2": "FORET À BOIS AUTO-CENTREUR AU CARBURE AVEC TRAÇOIRS",
+                        "img3": "FORET À BOIS AUTO-CENTREUR AU CARBURE",
+                        "img4": "FORET À BOIS DOUBLE LISTEL",
+                        "img5": "FORET À BOIS FCE- HSS",
+                        "img6": "FORET À BOIS HSS",
+                        "img7": "FORET SÉRIE LONGUE",
+                        "img8": "FORET SPECIAL RENOVATION QUEUE HEXAGONALE",
+                        "img9": "FORET SPÉCIAL RÉNOVATION SDS+",
+                        "img10": "FORET SPECIALE RENOVATION SDS UNIVERSEL",
+                        "img11": "MECHE A BOIS A 3 POINTES TAILLÉE",
+                        "img12": "MECHE A BOIS A SPIRE UNIQUE Q. CARREE CONIQUE",
+                        "img13": "MECHE A SPIRE UNIQUE QUEUE CYL. + 1 TRACOIR 130MM."
+                    }
+                },
+                "prod2": {
+                    "title": "Métal",
+                    "gallery": {
+                        "img1": "FORET EXTRA COURT 5% COBALT",
+                        "img2": "FORET HSS CARBURE",
+                        "img3": "FORET HSS COBALT 5% SPÉCIAL INOX",
+                        "img4": "FORET HSS LAMINÉ",
+                        "img5": "FORET HSS",
+                        "img6": "FORET HSS GOLD",
+                        "img7": "FORET MEULE RECTIFIÉ M2 SERIE EXTRA-COURTE",
+                        "img8": "FORET TAILLÉ MEULÉ ACIER",
+                        "img9": "FORET TAILLE MEULE HSS 300 X",
+                        "img10": "FORET HSS TAILLÉ MEULÉ ACIER",
+                        "img11": "FORET TAILLÉ MEULÉ SERIE EXTRA LONG M2",
+                        "img12": "FORET TAILLÉ MEULÉ-RECTIFIÉ SERIE LONGUE M2",
+                        "img13": "FORET TAILLÉ-MEULÉ RECTIFIÉ TITANE",
+                        "img14": "FORET TAILLÉ-RECTIFIÉ COBALT 5%",
+                        "img15": "FORET TAILLÉ-RECTIFIÉ COBALT 8%"
+                    }
+                },
+                "prod3": {
+                    "title": "Beton",
+                    "gallery": {
+                        "img1": "FORET BETON",
+                        "img2": "FORET BETON INDUSTRIE",
+                        "img3": "FORET BETON STANDARD",
+                        "img4": "FORET CENTREUR , FILETAGE M16",
+                        "img5": "FORET TOUS MATERIAUX.",
+                        "img6": "FORET SPÉCIAL CÉRAMIQUE"
+                    }
+                }
+            }
+        },
+        "cat3": {
+            "title": "Restaurateurs de filtage",
+            "desc": "Outils indispensable de la boite à outils des mécaniciens pour réparer des filets endommagés par la rouille, les chocs...",
+            "prods": {
+                "prod1": {
+                    "title": "Iso"
+                },
+                "prod2": {
+                    "title": "Unf-unc"
+                },
+                "prod3": {
+                    "title": "Gaz"
+                },
+                "prod4": {
+                    "title": "International"
+                },
+                "prod5": {
+                    "title": "Whitworth"
+                }
+            }
+        },
+        "cat4": {
+            "title": "Limes et plaques fraiseuses",
+            "desc": "Outils de finition pour la restauration de carrosseries de voiture.",
+            "subCategories": {
+                "globalGallery": {
+                    "img1": "Bâtard 9 dents avec brise-copeaux",
+                    "img2": "Bâtard 9 dents",
+                    "img3": "Demi-doux 12 dts avec brise-copeaux",
+                    "img4": "Demi-doux 12 dts",
+                    "img5": "Doux 21 dents avec brise-copeaux",
+                    "img6": "Doux 21 dents"
+                },
+                "cat1": {
+                    "title": "Lime à soie",
+                    "prods": {
+                        "prod1": "Lime fraiseuse à soie curviligne demi-ronde",
+                        "prod2": "Lime fraiseuse à soie curviligne plate",
+                        "prod3": "Lime fraiseuse a soie oblique demi-ronde",
+                        "prod4": "Lime fraiseuse a soie oblique plate"
+                    }
+                },
+                "cat2": {
+                    "title": "Plaque Fraiseuse",
+                    "prods": {
+                        "prod1": "Plaque fraiseuse curviligne demi-rond",
+                        "prod2": "Plaque fraiseuse curviligne plate",
+                        "prod3": "Plaque fraiseuse oblique demi-rond",
+                        "prod4": "Plaque fraiseuse oblique plate"
+                    }
+                }
+            }
+        }
+    },
+    "about": {
+        "title1": {
+            "part1": "À",
+            "part2": "Propos"
+        },
+        "desc1": "Nourrisson Diffusion développe au 21ième siècle le savoir-faire industrielle dans l’outillage née en France sur plusieurs sites et en assure une synthèse industrielle en Tunisie pour pouvoir résister à la pression concurrentielle de la Chine et de l’Inde dans l’outillage.",
+        "li1": "Montbrison (1897) pour la production des forets bois et béton de la société NOURRISSON Claude.",
+        "li2": "Saint Etienne (1919) pour la production de forets et fraise.",
+        "li3": "Pontarlier (1925) pour la fabrication de mandrins de la société Les Frères Amyot (LFA).",
+        "li4": "Paris (1930) pour la production de lime fraisées de la société PASCAL Le Filon.",
+
+        "title2": "Une clientèle grands comptes",
+        "desc2": "Notre clientèle est mondiale et est constituée de fabricants d’outillages électroportatifs et de négociants d’outillages.",
+
+        "title3": {
+            "part1": "Nos",
+            "part2": "Engagements"
+        },
+        "desc3": "NOURRISSON TUNISIE a été créé dans le but d’offrir aux industriels européens une alternative à un sourcing 100% asiatique.",
+        "desc4": "La proximité linguistique et géographique permet une réponse plus rapide et précise à votre cahier des charges logistique et produit.",
+        "desc5": "Notre engagement est de vous accompagner avec succès dans le rapprochement de votre supply Chain.",
+        "desc6": "Nous vous offrons une personnalisation et une qualité produits répondant aux standards des industriels européens au coût le plus juste pour vous différentier des concurrents asiatiques.",
+        "title4": "Nos Historiques",
+
+        "dd1897": "Fondation de la société OUTILLAGE NOURRISSON Frères à Montbrison, spécialisé dans les mèches de charpentes et de tonnelerie.",
+        "dd1917": "Sépartion des freres NOURRISSON, Claude Nourrisson crée la société Outillage NOURRISSON Claude et devient concurrent de ses 2 frères à Montbrison.",
+        "dd1919": "Création de la société FOS Fabrication d’outillage de St Etienne, spécialisé dans la production de fraises et outils coupants pour l’industrie de l’armement de St Etienne.",
+        "dd1925": "Création à 20 km de Pontarlier, de la société « Les Fils de Virgile Amyot », spécialisée dans la fabrication artisanale de mandrins de perceuses pour l’industrie.",
+        "dd1930": "Début du développement à l’International (Argentine, Australie) pour LFA, Afrique francophone pour Outillage Nourrisson.",
+        "dd1973": "La signature d’un marché de 100 000 mandrins avec Black & Decker accélère l’implantation de la société dans la zone industrielle de Pontarlier.",
+        "dd1984": "Création d’une filiale aux USA, LFA Industries Inc pour la commercialisation des mandrins LFA.",
+        "dd1985": "Outillage NOURRISSON Claude & fils reprends la société NOURRISSON Laurent et la marque RISS pour la réunion des entreprises de forets de Montbrison après 70 ans de concurrence familiale.",
+        "dd1995": "Lancement sur le marché mondial des mandrins sans clé à serrage manuel, breveté en Europe, USA et Asie (représentant aujourd’hui 90% de la production totale).",
+        "dd1997": "Création d’une première joint venture en Pologne pour la commercialisation de la marque RISS.",
+        "dd1998": "Première filiale de production en Roumanie pour NOURRISSON Claude, pour contrer l’arrivée sur le marché des outils chinois.",
+        "dd2003": "Lancement des mandrins sans clé avec nouveau système de verrouillage.",
+        "dd2011": "Lancement d’une nouvelle gamme, les mandrins ultra compacts.",
+        "dd2012": "Rachat de la société Horst MIEBACH à Cologne pour la production de forets bois spéciaux et de haute performance.",
+        "dd2015": "Fondation de NOURRISSON TUNISIE pour rapprocher la chaine de valeur de la France (conditionnement de produits).",
+        "dd2016": {
+            "part1": "Le site historique de production de mandrin LFA de Pontarlier est transféré en Tunisie suite à la reprise par NOURRISSON Claude.",
+            "part2": "Rachat de FOS par Outillage NOURRISSON Claude, réalisation d’affûtage et conditionnement en Tunisie de fraises de taillage HSS."
+        },
+        "dd2019": {
+            "part1": "Rachat de PASCAL LE FILON (Paris) par Outillage Nourrisson Claude, usine transférée en Tunisie.",
+            "part2": "Rachat de NOURRISSON TUNISIE par la société Nourrisson Diffusion."
+        }
+    },
+    "contact": {
+        "successMessage": {
+            "part1": "Merci d'avoir renseigné vos informations!",
+            "part2": "Merci de nous contacter.",
+            "part3": "Un de nos collègues vous répondra bientôt."
+        },
+        "errorMessage": {
+            "part1": "Oups, quelque chose ne va pas!",
+            "part2": "Veuillez vérifier votre connexion ou réessayer plus tard."
+        },
+        "submitBtn": {
+            "title": "Envoyer",
+            "loading": "Chargement ..."
+        },
+        "formFields": {
+            "firstName": {
+                "title": "Prénom",
+                "placeholder": "John",
+                "validation": "La longueur du prénom doit être comprise entre 2 et 64."
+            },
+            "lastName": {
+                "title": "Nom",
+                "placeholder": "Dhoe",
+                "validation": "La longueur du nom doit être comprise entre 2 et 64."
+            },
+            "company": {
+                "title": "Société ( optionnel )",
+                "placeholder": "Le nom de votre société",
+                "validation": "La longueur du nom de l'entreprise doit être comprise entre 2 et 128."
+            },
+
+            "email": {
+                "title": "Email",
+                "placeholder": "exemple@email.com"
+            },
+            "phoneNumber": {
+                "title": "Numéro de téléphone",
+                "placeholder": "Votre numéro de téléphone mobile ou fixe",
+                "validation": "La longueur du numéro de téléphone doit être comprise entre 8 et 20."
+            },
+            "address": {
+                "title": "Adresse",
+                "placeholder": "Numéro et nom ...",
+                "validation": "La longueur du numéro de téléphone doit être comprise entre 8 et 20."
+            },
+            "message": {
+                "title": "Message ( optionnel )",
+                "placeholder": "Commentaires, questions, ..."
+            }
+        }
+
+    },
+    "home": {
+        "title1": {
+            "part1": "Qui",
+            "part2": "sommes nous ?"
+        },
+        "desc1": "Nourrisson Diffusion est issue de la partition du groupe Nourrisson en 2019.",
+        "desc2": "Nous poursuivons la conception, production et commercialisation des production françaises sur les sites historiques de Montbrison, Pontarlier et Paris, transférés en Tunisie depuis 2016.",
+
+        "topProducts": {
+            "title": "Top Produits",
+            "prod1": {
+                "title": "Mandrin à serrage manuel série 5300 et 5320",
+                "desc": "Mandrin à serrage manuel à double chemise en plastique pour perceuses portatives à percussion avec système de verrouillage breveté."
+            },
+            "prod2": {
+                "title": "Restaurateur de filtage ISO",
+                "desc": "Outil à restaurer les filets avec précision pour les filetages intérieurs et extérieurs ISO (pas 0,8 - 1 - 1,25 - 1,50 - 1,75 - 2 - 2,5 - 3 mm)."
+            },
+            "prod3": {
+                "title": "Foret carrelage",
+                "desc": "Un foret parfaitement adapté aux matériaux les plus durs : grès cérame pleine masse, marbre, granit. Des forets extrêmement performants grâce à l'affûtage asymétrique et le profil spécifique qui Permet de percer plusieurs couches : carrelage + béton/brique/etc..."
+            },
+            "prod4": {
+                "title": "Foret bois 1070",
+                "desc": "Idéal pour le perçage des bois de menuiserie. Double Listel qui améliore le guidage lors du perçage."
+            }
+        },
+
+        "title2": "Site de production de Nourrisson Tunisie",
+        "desc3": "NOURRISSON TUNISIE a été créer dans le but d’offrir aux industriels européens une alternative à un sourcing 100% asiatique. La proximité linguistique et géographique permet une réponse plus rapide et précise à votre cahier des charges logistique et produit.",
+        "nourrissonTunisiaBtn": "Nourrisson Tunisie"
+    },
+
+    "seo": {
+        "home": {
+            "description": "Nourrisson Diffusion poursuivre la conception, production et commercialisation des production françaises sur les sites historiques de Montbrison, Pontarlier et Paris, transférés en Tunisie depuis 2016.",
+            "keywords": "Nourrisson Diffusion, Groupe nourrisson, production, commercialisation, production françaises, Montbrison, Pontarlier, Paris"
+        },
+        "about": {
+            "description": "Nourrisson Diffusion développe au 21ième siècle le savoir-faire industrielle dans l’outillage née en France sur plusieurs sites et en assure une synthèse industrielle en Tunisie pour pouvoir résister à la pression concurrentielle de la Chine et de l’Inde dans l’outillage.",
+            "keywords": "À propos, Historiques, Engagements"
+        },
+        "contact": {
+            "description": "Contactez-nous",
+            "keywords": "Contact"
+        },
+
+        "lfaChucks": {
+            "description": "Gamme large de mandrins à clefs, serrage manuel et serrage automatique pour perceuses stationnaire et portatives.",
+            "keywords": "Mandrins LFA, Mandrin auto-serrant, Mandrin a serrage manuel, Mandrin a clé"
+        },
+
+        "drillBits": {
+            "description": "Gamme de forets pour perçage du bois, du béton, carrelage, aciers.",
+            "keywords": "Forets, Métal, Beton, Bois"
+        },
+        "milledFile": {
+            "description": "Outils de finition pour la restauration de carrosseries de voiture.",
+            "keywords": "Limes et plaques fraiseuses, Lime fraiseuse à soie curviligne, Lime fraiseuse à soie oblique, Plaque fraiseuse oblique, Plaque fraiseuse curviligne"
+        },
+        "threadRestorers": {
+            "description": "Outils indispensable de la boite à outils des mécaniciens pour réparer des filets endommagés par la rouille, les chocs…",
+            "keywords": "Restaurateurs de filets, International, Iso, unf-unc, Gaz, Whitworth"
+        }
+
+    }
+}

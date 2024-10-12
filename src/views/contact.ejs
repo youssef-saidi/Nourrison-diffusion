@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="<%=lang%>">
+
+<head>
+
+    <%- include('partials/head'); -%>
+        <meta name="description" content="<%=trans.seo.contact.description%>">
+        <meta name="keywords" content="<%=trans.seo.contact.keywords%>">
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="/assets/scripts/contact.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LdQZb0aAAAAAIZ1nlXNG0QoTrw9_FLYJH1GNajZ"></script>
+
+        <title>
+            <%=trans.links.contact%> | Nourrisson Diffusion</title>
+</head>
+
+<body>
+    <%- include('partials/header'); -%>
+
+        <main>
+            <iframe class="w-full z-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6630.855029261431!2d4.057656469253729!3d45.67228323109295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f43084e5a5191b%3A0x4093cafcbe81660!2s42600%20Chalain-d&#39;Uzore%2C%20France!5e0!3m2!1sen!2stn!4v1618786831322!5m2!1sen!2stn"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <div class="flex md:flex-row flex-col justify-center md:items-start items-center md:p-0 p-3  w-full md:-mt-16 mt-4">
+                <div data-aos="fade-right" class="z-10  contact-card bg-white block p-8 rounded-lg shadow-lg border">
+                    <h1 class="text-2xl font-bold cl-primary uppercase mb-8 ">
+                        Nourrisson DIFFUSION</h1>
+                    <a href="mailto: contact@nourrisson-diffusion.com" class="flex items-center mb-3">
+                        <svg class="w-8 h-8" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.75 15.3334L20.8725 25.415C21.5024 25.8353 22.2427 26.0596 23 26.0596C23.7573 26.0596 24.4976 25.8353 25.1275 25.415L40.25 15.3334M9.58333 36.4167H36.4167C37.4333 36.4167 38.4084 36.0128 39.1272 35.294C39.8461 34.5751 40.25 33.6 40.25 32.5834V13.4167C40.25 12.4 39.8461 11.425 39.1272 10.7061C38.4084 9.98724 37.4333 9.58337 36.4167 9.58337H9.58333C8.56667 9.58337 7.59165 9.98724 6.87276 10.7061C6.15387 11.425 5.75 12.4 5.75 13.4167V32.5834C5.75 33.6 6.15387 34.5751 6.87276 35.294C7.59165 36.0128 8.56667 36.4167 9.58333 36.4167Z"
+                                stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h4 class="text-lg ml-3">contact@nourrisson-diffusion.com</h4>
+                    </a>
+                    <!-- <div class="flex items-center mb-3">
+                        <svg class="w-8 h-8" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.87276 6.87276C6.15387 7.59165 5.75 8.56667 5.75 9.58333V11.5C5.75 27.3777 18.6223 40.25 34.5 40.25H36.4167C37.4333 40.25 38.4084 39.8461 39.1272 39.1272C39.8461 38.4084 40.25 37.4333 40.25 36.4167V30.1319C40.2501 29.7295 40.1235 29.3372 39.8882 29.0108C39.6529 28.6843 39.3208 28.4402 38.939 28.313L30.3274 25.4418C29.8898 25.2964 29.4143 25.3136 28.9883 25.4903C28.5624 25.667 28.2144 25.9914 28.0082 26.404L25.8424 30.7299C21.1494 28.6095 17.3905 24.8506 15.2701 20.1576L19.596 17.9917C20.0086 17.7856 20.333 17.4376 20.5097 17.0117C20.6864 16.5857 20.7036 16.1102 20.5582 15.6726L17.687 7.061C17.5599 6.6795 17.3161 6.34762 16.99 6.11235C16.6639 5.87707 16.2721 5.75031 15.87 5.75H9.58333C8.56667 5.75 7.59165 6.15387 6.87276 6.87276Z"
+                                stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <h4 class="text-lg ml-3">06.23.77.82.32</h4>
+                    </div> -->
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M33.8424 31.9258L25.71 40.0583C25.3544 40.4143 24.932 40.6967 24.4672 40.8894C24.0023 41.0821 23.504 41.1812 23.0008 41.1812C22.4976 41.1812 21.9993 41.0821 21.5344 40.8894C21.0696 40.6967 20.6472 40.4143 20.2916 40.0583L12.1573 31.9258C10.0129 29.7814 8.55265 27.0493 7.96108 24.0749C7.3695 21.1006 7.6732 18.0176 8.83377 15.2158C9.99433 12.4141 11.9596 10.0194 14.4812 8.33457C17.0027 6.64975 19.9672 5.75049 22.9998 5.75049C26.0325 5.75049 28.997 6.64975 31.5185 8.33457C34.04 10.0194 36.0054 12.4141 37.1659 15.2158C38.3265 18.0176 38.6302 21.1006 38.0386 24.0749C37.447 27.0493 35.9867 29.7814 33.8424 31.9258V31.9258Z"
+                                stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M27.0659 25.1492C28.1442 24.0708 28.75 22.6083 28.75 21.0833C28.75 19.5583 28.1442 18.0958 27.0659 17.0174C25.9875 15.9391 24.525 15.3333 23 15.3333C21.475 15.3333 20.0125 15.9391 18.9341 17.0174C17.8558 18.0958 17.25 19.5583 17.25 21.0833C17.25 22.6083 17.8558 24.0708 18.9341 25.1492C20.0125 26.2275 21.475 26.8333 23 26.8333C24.525 26.8333 25.9875 26.2275 27.0659 25.1492Z"
+                                stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <h4 class="text-lg ml-3">Chalains d’uzore, FRANCE</h4>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="z-20  contact-card bg-white block md:px-8 px-6 md:py-12 py-8 rounded-lg shadow-lg md:mt-36 -mt-4 md:-ml-24 border">
+                    <h1 class="md:text-5xl text-3xl font-bold cl-primary uppercase mb-12">
+                        <%=trans.global.contactUs%>
+                    </h1>
+                    <div id="success-card" class="hidden bg-green-100 block p-8 rounded-lg shadow-lg border border-green-500 text-green-500">
+                        <h3 class="font-semibold mb-5 text-2xl pb-2 border-b border-green-500">
+                            <%=trans.contact.successMessage.part1%>
+
+                        </h3>
+                        <p class="font-medium md:text-base text-sm mt-2">
+                            <%=trans.contact.successMessage.part2%>
+                                <br />
+                                <%=trans.contact.successMessage.part3%>
+                        </p>
+                    </div>
+
+                    <form id="contact-form" method=" post">
+                        <div class="flex mb-4">
+                            <div class="mr-3 w-full">
+                                <div class="input rounded-md shadow border px-3 py-2 ">
+                                    <label class="block font-semibold text-sm"><%=trans.contact.formFields.firstName.title%></label>
+                                    <input class="focus:outline-none w-full text-sm" name="first-name" type="text" placeholder="<%=trans.contact.formFields.firstName.placeholder%>" required pattern=".{2,64}" title="<%=trans.contact.formFields.firstName.validation%>" />
+                                </div>
+                            </div>
+
+
+                            <div class="w-full">
+                                <div class="input rounded-md shadow border px-4 py-2 ">
+                                    <label class="block font-semibold text-sm"><%=trans.contact.formFields.lastName.title%></label>
+                                    <input class="focus:outline-none w-full text-sm" name="last-name" type="text" placeholder="<%=trans.contact.formFields.lastName.placeholder%>" required pattern=".{2,64}" title="<%=trans.contact.formFields.lastName.validation%>" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-4">
+                            <div class="input rounded-md shadow border px-3 py-2">
+                                <label class="block font-semibold text-sm"><%=trans.contact.formFields.company.title%></label>
+                                <input class="focus:outline-none w-full text-sm" name="company" type="text" placeholder="<%=trans.contact.formFields.company.placeholder%>" pattern=".{2,128}" title="<%=trans.contact.formFields.company.validation%>" />
+                            </div>
+                        </div>
+
+
+                        <div class="mb-4">
+                            <div class="input rounded-md shadow border px-3 py-2">
+                                <label class="block font-semibold text-sm"><%=trans.contact.formFields.email.title%></label>
+                                <input class="focus:outline-none w-full text-sm" name="email" type="email" placeholder="<%=trans.contact.formFields.email.placeholder%>" required />
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="input rounded-md shadow border px-3 py-2">
+                                <label class="block font-semibold text-sm"><%=trans.contact.formFields.phoneNumber.title%></label>
+                                <input class="focus:outline-none w-full text-sm" placeholder="<%=trans.contact.formFields.phoneNumber.placeholder%>" name="phone-number" type="text" required pattern=".{8,20}" title="<%=trans.contact.formFields.phoneNumber.validation%>" />
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="input rounded-md shadow border px-3 py-2">
+                                <label class="block font-semibold text-sm"><%=trans.contact.formFields.address.title%></label>
+                                <input class="focus:outline-none w-full text-sm" name="address" type="text" placeholder="<%=trans.contact.formFields.address.placeholder%>" required pattern=".{6,255}" title="<%=trans.contact.formFields.address.validation%>" />
+                            </div>
+                        </div>
+
+
+
+                        <div class="mb-6">
+                            <div class="input rounded-md shadow border px-3 py-2">
+                                <label class="block font-semibold text-sm"><%=trans.contact.formFields.message.title%></label>
+                                <textarea class="focus:outline-none w-full text-sm h-24" placeholder="<%=trans.contact.formFields.message.placeholder%>" name="message" maxlength="1000"></textarea>
+                            </div>
+                        </div>
+
+                        <div id="error-card" class="hidden mb-8 bg-red-100 block p-8 rounded-lg shadow-lg border border-red-500 text-red-500">
+                            <h3 class="font-semibold mb-5 text-2xl pb-2 border-b border-red-500">
+                                <%=trans.contact.errorMessage.part1%>
+
+                            </h3>
+                            <p class="font-medium md:text-base text-sm mt-2">
+                                <%=trans.contact.errorMessage.part2%>
+
+                            </p>
+                        </div>
+
+                        <button class="submit-btn uppercase focus:outline-none flex items-center  text-sm py-2 md:px-8 px-5 bg-primary font-bold rounded-md">
+                            <span><%=trans.contact.submitBtn.title%></span><span><%=trans.contact.submitBtn.loading%></span>
+                        </button>
+
+                    </form>
+                </div>
+        </main>
+        <%- include('partials/footer'); -%>
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<links data-aos="fade-down" class="fixed left-0 top-0 w-full z-50">
+    <nav id="trans-nav" class="transparent flex transition-colors relative items-center  shadow-sm justify-between py-3 px-4 font-medium md:text-white">
+        <button id="menu-btn" class="focus:outline-none md:hidden block">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18H11M4 6H20H4ZM4 12H20H4Z" stroke="#845EC2" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+
+
+        <a href="/"><img id="logo" class="md:w-32 w-24" src="/assets/logo-under-dark.svg" /></a>
+        <ul id="menu" class=" md:flex md:w-auto md:relative md:overflow-visible overflow-auto md:left-none absolute left-0 top-full md:p-0 p-8 md:bg-transparent bg-white w-full md:shadow-none shadow-md">
+            <li class="mr-6">
+                <a href="/">
+                    <%=trans.links.home%>
+                </a>
+            </li>
+            <li class="mr-6 md:mt-0 mt-3">
+                <div class="dropdown relative w-full md:flex flex-row md:justify-center justify-start">
+                    <span class="flex items-center">
+                        <span>
+                            <%=trans.global.products%>
+                        </span>
+
+                    <svg class="ml-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.6668 6L8.00016 10.6667L3.3335 6" stroke="white" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <div class="drop-content md:absolute w-full md:p-4 md:mt-8 mt-4 bg-white rounded-lg md:shadow-md text-black">
+                        <div class="block">
+                            <div class="cat-card block p-4">
+                                <h2 class="text-3xl	font-bold">
+                                    <%=trans.categories.cat1.title%>
+                                </h2>
+                                <p class="my-2 font-normal">
+                                    <%=trans.categories.cat1.desc%>
+                                </p>
+                                <a class=" flex items-center cl-primary
+                                                                    font-semibold" href="/product/lfa-chucks">
+
+                                    <span><%=trans.global.seeProds%></span>
+                                    <svg class="ml-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 8L21 12M21 12L17 16M21 12H3" stroke="#845EC2" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="cat-card block  p-4">
+                                <h2 class="text-3xl	 font-bold">
+                                    <%=trans.categories.cat2.title%>
+                                </h2>
+                                <p class="my-2 font-normal">
+                                    <%=trans.categories.cat2.desc%>
+                                </p>
+                                <a class="flex items-center cl-primary font-semibold" href="/product/drill-bits">
+                                    <span><%=trans.global.seeProds%></span>
+                                    <svg class="ml-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 8L21 12M21 12L17 16M21 12H3" stroke="#845EC2" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="block  md:ml-12">
+                            <div class="cat-card block p-4">
+                                <h2 class="text-3xl	 font-bold">
+                                    <%=trans.categories.cat3.title%>
+                                </h2>
+                                <p class="my-2 font-normal">
+                                    <%=trans.categories.cat3.desc%>
+                                </p>
+                                <a class="flex items-center cl-primary font-semibold" href="/product/thread-restorers">
+                                    <span><%=trans.global.seeProds%></span>
+                                    <svg class="ml-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 8L21 12M21 12L17 16M21 12H3" stroke="#845EC2" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="cat-card block  p-4">
+                                <h2 class="text-3xl	 font-bold">
+                                    <%=trans.categories.cat4.title%>
+                                </h2>
+                                <p class="my-2 font-normal">
+                                    <%=trans.categories.cat4.desc%>
+                                </p>
+                                <a class="flex items-center cl-primary font-semibold" href="/product/milled-file">
+                                    <span><%=trans.global.seeProds%></span>
+                                    <svg class="ml-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 8L21 12M21 12L17 16M21 12H3" stroke="#845EC2" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+            <li class=" md:mt-0 mt-3">
+                <a href="/about">
+                    <%=trans.links.about%>
+                </a>
+            </li>
+            <li class="md:hidden block mt-3 cl-primary">
+                <a href="/contact">
+                    <%=trans.links.contact%>
+                </a>
+            </li>
+        </ul>
+
+
+        <div class="flex items-center font-semibold">
+            <div class="lang md:mr-4 mr-2 md:text-base text-sm text-white">
+                <a href="?clang=fr" class='<%=(lang == "fr" ? "cl-primary" : "")%>'>Fr</a> / <a class='<%=(lang == "eng" ? "cl-primary" : "")%>' href="?clang=eng">Eng</a>
+            </div>
+            <a href="/contact" class="md:flex hidden items-center md:text-base text-sm py-2 md:px-4 px-3 text- bg-primary rounded-full">
+                <span>
+                    <%=trans.links.contact%>
+                </span>
+                <svg class="ml-2 md:w-6 w-4" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.6667 10.6667L28 16.0001M28 16.0001L22.6667 21.3334M28 16.0001H4" stroke="white"
+                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+</links>
